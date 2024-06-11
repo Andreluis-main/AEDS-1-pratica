@@ -1,0 +1,10 @@
+triangulo
+quadrado 
+retangulo 
+circulo 
+cilindro 
+paralelepipedo 
+cone 
+cubo 
+estera 
+fim
