@@ -1,0 +1,112 @@
+/* Reset básico */
+body, h1, h2, p, ol, table, img, a, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f8fa;
+    color: #24292e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #24292e;
+    width: 100%;
+    padding: 20px 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Estilos das imagens */
+img {
+    max-width: 200px;
+    margin: 0 10px;
+}
+
+/* Estilos da navegação */
+nav a {
+    background-color: #0366d6;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0053a1;
+}
+
+/* Estilos da seção */
+section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+/* Estilos da tabela */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #24292e;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos da lista */
+.list-group-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Estilos do rodapé */
+footer {
+    margin-top: 20px;
+}
+
+footer small {
+    font-size: 0.8rem;
+}
